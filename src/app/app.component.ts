@@ -2,8 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: ``,
-  styles: [],
+  template: `
+  <app-header></app-header>
+  <router-outlet></router-outlet>
+  `,
 })
 export class AppComponent {
   title = 'angular-webshop';
